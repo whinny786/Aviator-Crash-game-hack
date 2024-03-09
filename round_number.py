@@ -8,7 +8,7 @@ import hmac
 e = 2**52
 salt = "0000000000000000000fa3b65e43e4240d71762a5bf397d5304b2596d116859c"
 
-game_hash = '8f1910ab4daac66fb50954609f6ae662aa3f65f331f944abe93c90b5ff23813c' # replace by your latest gamehash
+game_hash = '-s0xJebKjYbhGrTmw9f15YJzmTZji7gwkXY4HRpp6k8' # replace by your latest gamehash
 
 def get_result(game_hash):
     hm = hmac.new(str.encode(game_hash), b'', hashlib.sha256)
